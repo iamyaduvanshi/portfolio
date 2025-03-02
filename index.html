@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio – Apple Inspired</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">AY</div>
+      <nav class="nav" id="navMenu">
+        <ul>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Hello, I'm Abhishek Yadav</h1>
+      <p class="subtitle">Full Stack Developer</p>
+      <a href="#work" class="btn-primary">View Projects</a>
+    </div>
+  </section>
+
+  <!-- Work Section -->
+  <section id="work" class="work-section">
+    <div class="container">
+      <h2>Recent Work</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <h3>New Vision E-commerce</h3>
+          <p>A full-featured online store for a machine manufacturing company.</p>
+          <button class="btn-secondary">Ecommerce</button>
+        </div>
+        <div class="project-card">
+          <h3>Portfolio Websites</h3>
+          <p>Modern, responsive sites with smooth animations and clean design.</p>
+          <button class="btn-secondary">Web Design</button>
+        </div>
+        <div class="project-card">
+          <h3>Business Landing Pages</h3>
+          <p>High-conversion landing pages optimized for user engagement.</p>
+          <button class="btn-secondary">Landing Page</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill-box">
+          <h4>Python</h4>
+          <p>Expert</p>
+        </div>
+        <div class="skill-box">
+          <h4>Java</h4>
+          <p>Intermediate</p>
+        </div>
+        <div class="skill-box">
+          <h4>HTML</h4>
+          <p>Expert</p>
+        </div>
+        <div class="skill-box">
+          <h4>CSS</h4>
+          <p>Expert</p>
+        </div>
+        <div class="skill-box">
+          <h4>React</h4>
+          <p>Beginner</p>
+        </div>
+        <div class="skill-box">
+          <h4>C/C++</h4>
+          <p>Intermediate</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm a Full Stack Web Developer with extensive experience in creating modern web applications. I specialize in clean design, intuitive interactions, and innovative solutions.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container contact-container glass">
+      <h2>Get in Touch</h2>
+      <form action="https://formspree.io/f/xanqrpwj" method="POST" class="contact-form">
+        <label for="email">Your Email:</label>
+        <input type="email" name="email" id="email" placeholder="your-email@example.com" required>
+        
+        <label for="message">Your Message:</label>
+        <textarea name="message" id="message" rows="5" placeholder="Type your message here..." required></textarea>
+        
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Abhishek Yadav. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
